@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .name {
+    margin-bottom: 30px;
+    font-size: 52px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .loginForm {
+    background-color: #2b2929;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #ffffff;
+  }
+  
+  .form-control { 
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+  }
+
+  .logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 100%;
+  }

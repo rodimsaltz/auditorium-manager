@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <img src="assets/img/cetep-logo.jpg" alt="Logo CETEP" class="logo"> >
+  <h1 class="title">Controle do Auditório</h1>
+  
+  <form class="loginForm" action="index.php" method="post">
+    <div class="form-group row">
+      <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="text" id="inputEmail" name="email" placeholder="Email" class="form-control">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+      <div class="col-sm-10">
+        <input type="password" id="inputPassword" name="password" placeholder="Password" class="form-control">
+      </div>
+    </div>
+
+    <!-- Botão de submit precisa estar DENTRO do formulário -->
+    <button type="submit" class="btn-primary">Entrar</button>
+  </form>
+
+  <footer class="footer">
+    <p>Desenvolvido por João Rodrigo C. Mascarenhas</p>
+  </footer>
+
+</body>
+</html>
